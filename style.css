@@ -318,20 +318,21 @@ footer>a:active {
 }
 
 @media screen and (max-width: 450px) {
-    .main {
-        flex-direction: column;
+    header {
+        min-height: 7vh;
+        font-size:x-small;
     }
 
-    header {
-        position: relative;
+    #about, #skills, #projects {
+        padding-top: 60px;
+    }
+
+    .cube>h4 {
+        top: 2%;
+        left: 6%
     }
     
-    nav {
-        max-width: 100%;
-        font-size: larger;
-    }
-
-    nav>img {
-        max-width: 75%;
+    .cube {
+        padding: 3em;
     }
 }
